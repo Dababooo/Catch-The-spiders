@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display:0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(115, 91, 115);
+    
+}
+
+.Catch {
+    background-color: rgba(87, 67, 65, 0.469);
+    text-align-last: center;
+    color: rgb(47, 17, 75);
+}
+
+.Desc {
+    background-color: rgba(96, 72, 91, 0.336);
+    color: rgb(59, 40, 56);
+    padding: 0%;
+    margin: 2%;
+}
+
+.danger-line{
+    width: 100%;
+    height: 15px;
+    background-color: rgba(116, 77, 10, 0.318);
+    position:absolute;
+    bottom: 0%;
+}
+
+.basket{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    bottom: -23px;
+    left: calc(50% - 25px);
+    background-size:cover;
+    background-image: url(PERSON.png)
+
+}
+
+.fruit{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/019/040/574/small/retro-cartoon-brown-tarantula-free-png.png)
+}
+
+.game {
+    width: 700px;
+    height: 500px;
+    background-color: lightsteelblue;
+    position:absolute;
+    overflow: hidden; /* Prevent content from spilling out */
+    background-image: url(https://img.freepik.com/premium-photo/pixel-art-depicting-cozy-room-with-fireplace-chair_811279-60420.jpg);
+    background-size: contain;
+    
+}
